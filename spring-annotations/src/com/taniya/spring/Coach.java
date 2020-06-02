@@ -6,5 +6,7 @@ public interface Coach {
 	public static void words() {
 		System.out.println("Never Say: I Quit");
 	}
+	public String getYearlyData();
+	
 
 }
