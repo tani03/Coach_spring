@@ -5,6 +5,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class TennisCoach implements Coach {
+	
+@Autowired
 private EquipmentService es;
 
 	/*
@@ -13,11 +15,11 @@ private EquipmentService es;
 	this.es = es;
 	}*/
 	
-	@Autowired	
+	/*@Autowired	
 	public EquipmentService getEs(EquipmentService es) {
 	this.es=es;
 	return es;
-	}
+	}*/
 
 
 
